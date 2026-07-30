@@ -1,1 +1,1 @@
-# Sectoral-Credit-Concentration-Risk-Early-Warning
+The Sectoral Credit Concentration & Risk Early Warning Dashboard is a risk-focused project designed to track where bank credit is flowing across different sectors of the Indian economy (e.g., Retail, MSME, Large Industry, Agriculture, Services) and identify potential credit risk pockets before defaults occur. 
