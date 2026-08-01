@@ -56,3 +56,6 @@ This project was built to simulate a quantitative risk assessment environment fo
 
 4. **Establish Interactive Visual Cross-Filtering:**
 	* Build an integrated multi-sheet dashboard (Heatmap, Scatter plot, and Ranking Bar Chart) where filtering or highlighting a sector instantly reflects across all visual dimensions.
+
+## **Detailed Report** 
+For complete granular tabular metrics, dynamic heatmaps, and exhaustive sector-by-sector systemic risk breakdowns, inspect the full executive report in [SUMMARY](./SUMMARY.md).
