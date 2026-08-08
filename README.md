@@ -1,6 +1,8 @@
 # Sectoral Credit Concentration & Risk Early Warning
 This project provides an interactive risk matrix and monitoring tool designed to detect systemic risk, over-leveraged sub-sectors, and rapid credit expansion across different sectors of the Indian economy (e.g. *Agriculture*, *Industries*, *Services* and *Personal Loans*) based on the sectoral data provided by The Reserve Bank of India (RBI). 
 
+<img width="1330" height="810" alt="Screenshot 2026-08-08 at 1 12 19 PM" src="https://github.com/user-attachments/assets/535ee8c1-bc5b-492e-b688-e65428fefca3" />
+
 ### About The Reserve Bank of India		
 	
 The [Reserve Bank of India](https://rbi.org.in/Scripts/AboutUsDisplay.aspx) is India's central bank, and the regulatory organisation for the Indian banking system and Indian currency. It is owned by the Ministry of Finance, Government of the Republic of India, it is responsible for the control, issue, and supply of the Indian rupee. It also manages the country's main payment systems and maintains its credit system.
@@ -19,7 +21,7 @@ To run the data processing scripts or interact with the dashboard, follow the in
 
 ### 1. Installing R & RStudio (Data Processing & Plotting)
 
-R is used for data cleaning, aggregation, and generating initial exploratory plots (such as ggplot2 scatter plots).
+R is a powerful programming language primarily built for statistical computing, data analysis, and visualization. It serves as an end-to-end data science pipeline where users import, clean, and reshape chaotic datasets using packages like dplyr and tidyr. Beyond data manipulation, R is renowned for its visualization capabilities through ggplot2, which produces publication-quality charts and interactive plots. RStudio is an Integrated Development Environment (IDE) used primarily to write and run code for the R programming language, which specializes in statistical computing, data analysis, and data visualization.
 
 #### Download & Install R
 1. Go to the official CRAN website: [https://cran.r-project.org/](https://cran.r-project.org/)
@@ -27,19 +29,25 @@ R is used for data cleaning, aggregation, and generating initial exploratory plo
 3. Click on **base** (or *install R for the first time*) and download the latest installer.
 4. Run the installer executable and follow the default setup prompts.
 
+
+
 #### Download & Install RStudio Desktop
 1. Go to the Posit download page: [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
 2. Click **Download RStudio Desktop for Windows**,**macOS**,**Linux**.
 3. Run the installer and complete the setup.
-4. Open RStudio and verify R is recognized by running:
+4. Open RStudio and verify R is recognised by running:
    ```R
    sessionInfo()
 
 ### 2. Installing Tableau (Interactive Dashboard)
-1. Go to [Tableau Desktop](https://www.tableau.com/products/desktop/download) or [Tableau Public](https://public.tableau.com/)
+
+Tableau is a premier business intelligence tool used to convert raw, complex data into interactive, real-time visualizations and dashboards. It connects directly to various data sources—like Excel, SQL databases, cloud platforms, and big data systems—allowing organizations to blend and analyse information without complex coding. Business analysts and executives use its drag-and-drop interface to track Key Performance Indicators (KPIs), spot market trends, and uncover hidden operational patterns. Beyond descriptive dashboards, Tableau supports geospatial mapping, cohort analysis, and predictive forecasting.  
+
+1. Go to [Tableau Desktop](https://www.tableau.com/products/desktop/download)
 2. Download the installer for Windows or macOS.
 3. Activate using your license key (*In case of Tableau Desktop*)
 4. Enter your email and run the downloaded installation wizard (*In case of Tableau Public*)
+
 
 ## Experimental Goals & Core Objectives
 
